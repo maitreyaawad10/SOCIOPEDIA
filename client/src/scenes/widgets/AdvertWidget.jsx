@@ -22,7 +22,7 @@ const AdvertWidget = () => {
                 width="100%"
                 height="auto"
                 alt="advert"
-                src={process.env.REACT_APP_BASE_URL+"/assets/info4.jpeg"}
+                src="https://res.cloudinary.com/dpuead1w4/image/upload/v1687891788/sociopedia/info4_leq6y5.jpg"
                 style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
             />
 

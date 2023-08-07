@@ -20,7 +20,7 @@ router.post("/", verifyToken, upload.single("picture"), createPost);
 
 /* READ */
 router.get("/", verifyToken, getFeedPosts);
-router.get("/:userId:posts", verifyToken, getUserPosts);
+router.get("/:userId/posts", verifyToken, getUserPosts);
 
 
 /* UPDATE */

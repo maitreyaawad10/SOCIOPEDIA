@@ -24,7 +24,7 @@ app.use(cors());
 
 /* ROUTES */
 app.get("/", (req, res) => {
-    res.send("Server is live!");
+    res.send("Server is live now!");
 });
 app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
